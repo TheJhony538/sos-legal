@@ -1,0 +1,38 @@
+name: sos_legal
+description: Aplicación de asistencia legal y digital con autenticación, pagos y asistencia por IA.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.1.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.0
+
+  # WebView y pagos
+  webview_flutter: ^4.0.7
+  http: ^1.2.2
+  crypto: ^3.0.3
+
+  # Permisos
+  permission_handler: ^12.0.1
+
+  # IA (revisa si existen en pub.dev)
+  # flutter_ai_toolkit: ^0.9.0
+  # firebase_ai: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
